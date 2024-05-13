@@ -14,21 +14,21 @@ body {
     overflow: hidden;
 }
 #title{
-
+    font-size: 24px;
 }
 #container{
-    border: 1px solid white;
     width: 40vw;
 }
 #game-prompt{
-
+    margin-top: 10%;
+    font-size: 32px;
 }
 #buttons-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 5% auto;
 }
 .button{
-    border: 1px solid white;
     aspect-ratio: 1 / 1;
     width: 20%;
     cursor: pointer;
@@ -38,10 +38,19 @@ body {
     justify-content: space-evenly;
 }
 .score{
-
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .disabled{
-    cursor: not-allowed;
-    pointer-events: none;
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
