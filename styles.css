@@ -18,6 +18,7 @@ body {
 }
 #container{
     width: 40vw;
+    max-width: 500px;
 }
 #game-prompt{
     margin-top: 10%;
